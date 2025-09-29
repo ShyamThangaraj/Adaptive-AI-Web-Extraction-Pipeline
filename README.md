@@ -2,6 +2,10 @@
 
 This system automatically extracts structured data from career or blog listing pages using AI-powered schema discovery and Crawl4AI for data extraction.
 
+## Development Note
+
+This project was developed locally with an extensive commit history that was consolidated during the initial repository setup. The codebase represents the final working version of my comprehensive AI-powered web extraction pipeline with multiple iterations and refinements made during local development.
+
 ## Features
 
 - **SERP-Based Link Discovery**: Uses SerpApi Google Light Search to find job and blog listing pages

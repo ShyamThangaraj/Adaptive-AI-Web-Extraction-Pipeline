@@ -1,4 +1,4 @@
-# Adaptive AI Web Extraction Pipeline
+# Intelligent AI Web Extraction Pipeline
 
 This system automatically extracts structured data from career or blog listing pages using AI-powered schema discovery and Crawl4AI for data extraction.
 

@@ -1,0 +1,75 @@
+{
+  "domain": "job-boards.greenhouse.io",
+  "type": "jobs",
+  "version": 1,
+  "created_at": "2023-10-01T00:00:00Z",
+  "updated_at": "2025-09-25T03:09:27Z",
+  "required_fields": [
+    "title",
+    "company",
+    "location",
+    "description",
+    "full_description",
+    "apply_url",
+    "posting_date",
+    "source_url",
+    "schema_version"
+  ],
+  "extraction_rules": {
+    "title": [
+      {
+        "kind": "css",
+        "value": "h1.job-title"
+      }
+    ],
+    "company": [
+      {
+        "kind": "css",
+        "value": "div[data-qa='job-company']"
+      }
+    ],
+    "location": [
+      {
+        "kind": "css",
+        "value": "div[data-qa='job-location']"
+      }
+    ],
+    "description": [
+      {
+        "kind": "css",
+        "value": "div[data-qa='job-description'], .job-description, .content, .job-details, .description, main .content, .posting-content"
+      }
+    ],
+    "full_description": [
+      {
+        "kind": "css",
+        "value": "div[data-qa='job-description'], .job-description, .content, .job-details, .description, main .content, .posting-content"
+      }
+    ],
+    "apply_url": [
+      {
+        "kind": "css",
+        "value": "a[data-qa='apply-button']"
+      }
+    ],
+    "posting_date": [
+      {
+        "kind": "css",
+        "value": "time[data-qa='job-posted-date']"
+      }
+    ],
+    "source_url": [
+      {
+        "kind": "css",
+        "value": "link[rel='canonical']"
+      }
+    ],
+    "schema_version": [
+      {
+        "kind": "constant",
+        "value": "1"
+      }
+    ]
+  },
+  "listing_url": "http://job-boards.greenhouse.io/acquia"
+}

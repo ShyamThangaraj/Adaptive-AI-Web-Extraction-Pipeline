@@ -1,0 +1,22 @@
+# Core web scraping and data extraction
+crawl4ai>=0.2.0
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# AI/LLM integration
+openai>=1.0.0
+
+# Database and data handling
+sqlalchemy>=1.4.0
+python-dotenv>=0.19.0
+
+# Web scraping utilities
+serpapi>=2.4.0
+
+# Standard library dependencies that might need explicit installation
+typing-extensions>=4.0.0
+
+# Optional but recommended for better performance
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.0

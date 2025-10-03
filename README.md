@@ -281,4 +281,4 @@ Web_proj/
 - All extracted data is stored locally in SQLite - no data is sent to external services except for AI processing
 - The system respects robots.txt files and implements polite crawling practices
 - Generated schemas are reusable and can be manually edited if needed
-- Pipeline reports help track extraction success rates and identify issues
+- Pipeline reports track extraction success rates and identify issues
